@@ -1,0 +1,74 @@
+/* Basic styles to mimic core Tailwind functionality */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.max-w-2xl {
+  max-width: 42rem;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+.bg-indigo-50 {
+  background-color: #eef2ff;
+}
+.bg-amber-50 {
+  background-color: #fffbeb;
+}
+.text-indigo-700 {
+  color: #4338ca;
+}
+.text-gray-600 {
+  color: #4b5563;
+}
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+/* Add more styles as needed */
